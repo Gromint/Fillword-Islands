@@ -1,0 +1,49 @@
+Key,ru,en
+hidden,Пользователь скрыт,User hidden
+q_auth,"Просмотр таблицы лидеров доступен только авторизованным игрокам.
+
+Хотите войти в аккаунт?","Leaderboard access requires authorization.
+
+Would you like to log in?"
+noads_descr,Отключите рекламу и погрузитесь в игру без пауз.,Turn off ads and immerse yourself in the game without interruptions.
+noads_until,Без рекламы до ,No ads until 
+ad_timer,Реклама через: ,Advertising through: 
+ad_off,Отключить,Turn off
+isle,ОСТРОВ ,ISLAND 
+dif,СЛОЖНОСТЬ ,DIFFICULTY 
+explored,ИССЛЕДОВАНО!,EXPLORED!
+open,ОТКРЫТО ,OPEN 
+of, ИЗ , OF 
+progress,ПРОГРЕСС: ,PROGRESS: 
+new_i,НОВЫЙ ОСТРОВ,NEW ISLAND
+explore,ИССЛЕДОВАТЬ,EXPLORE
+lvl,УРОВЕНЬ ,LEVEL 
+cont,ПРОДОЛЖИТЬ,CONTINUE
+all_l_open,Все буквы уже открыты!,All letters are already revealed!
+all_w_open,Все слова уже открыты!,All the words are already revealed!
+do_expl,Исследуйте первый остров,Explore the first island
+help_select,Выделите первое слово,Select the first word
+store_un,Магазин недоступен сейчас,The store is currently unavailable
+closed_until,Закрыто до 5-го уровня,Closed until Level 5
+month_1,Январь,January
+month_2,Февраль,February
+month_3,Март,March
+month_4,Апрель,April
+month_5,Май,May
+month_6,Июнь,June
+month_7,Июль,July
+month_8,Август,August
+month_9,Сентябрь,September
+month_10,Октябрь,October
+month_11,Ноябрь,November
+month_12,Декабрь,December
+dayly_bonus,"Исследуйте остров в день его выхода, чтобы получить 150% опыта.",Explore the island on its release day to get 150% XP
+scale_100,Масштаб: 100%,Scale: 100%
+scale_str,Масштаб: Растянуть,Scale: Stretch
+snd_vol,Громкость звука,Sound volume
+q_hint_letter,Открыть БУКВУ в скрытом слове на панели сверху за 10 монет?,Reveal a LETTER in a hidden word on the top panel for 10 coins?
+q_hint_word,Открыть скрытое СЛОВО в списке слов на панели сверху за 25 монет?,Reveal the hidden WORD in the word list on the top panel for 25 coins?
+q_hint_word_ad,Открыть скрытое СЛОВО в списке слов на панели сверху за просмотр рекламы?,Reveal the hidden WORD in the word list on the top panel for watching an ad?
+no_coins,"Недостаточно монет.
+Желаете приобрести?","Not enough coins.
+Would you like to purchase?"
