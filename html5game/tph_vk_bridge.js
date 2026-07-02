@@ -106,6 +106,12 @@ function js_vk_show_rewarded_ads() {
 }
 
 function js_vk_save_data(key, value) {
+	// ЗАЩИТА: Если GameMaker паникует и пытается сохранить пустой файл до загрузки ВК
+	if (typeof vkBridge === 'undefined') {
+		console.warn("VK Bridge is undefined. Save request deferred.");
+		return "0";
+	}
+
 	let self = VKBridgeGMS;
 	let req_id = self.newRequest();
 	vkBridge.send('VKWebAppStorageSet', {
@@ -125,6 +131,16 @@ function js_vk_save_data(key, value) {
  * Исправленная загрузка: четкое разделение Success и Empty.
  */
 function js_vk_get_data(key) {
+	// ЗАЩИТА: На случай если вызов произошел до инициализации
+	if (typeof vkBridge === 'undefined') {
+		console.warn("VK Bridge is undefined. Get request ignored.");
+		let self = VKBridgeGMS;
+		let req_id = self.newRequest();
+		// Сразу возвращаем, что облако пустое, чтобы игра не висла
+		setTimeout(() => self.send(req_id, "getDataEmpty", ""), 1);
+		return String(req_id);
+	}
+
 	let self = VKBridgeGMS;
 	let req_id = self.newRequest();
 	vkBridge.send('VKWebAppStorageGet', {
