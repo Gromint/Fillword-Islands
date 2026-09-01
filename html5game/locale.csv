@@ -47,3 +47,9 @@ q_hint_word_ad,Открыть скрытое СЛОВО в списке слов
 no_coins,"Недостаточно монет.
 Желаете приобрести?","Not enough coins.
 Would you like to purchase?"
+not_enough,Недостаточно монет.,Not enough coins.
+a_found,Уже найдено!,Already found!
+ad_offer,"Отключи рекламные паузы навсегда
++ получи 5 000 монет!","Turn off ad breaks forever
++ claim 5,000 coins!"
+ad_no,Может позже,Maybe later
